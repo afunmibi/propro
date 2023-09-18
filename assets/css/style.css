@@ -1,0 +1,195 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#big-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.small{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 0px 1px 1px;
+}
+
+
+.stack, .hero-text{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 0px 1px 1px;
+    
+    
+}
+
+.btn{
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.75rem;
+}
+button:hover{
+    transform: translateY(.5rem);
+    background-color: blueviolet;
+    color: white;
+}
+
+.hero-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    #big-container{
+        display: block;
+        width: 100%;
+    }
+.small, .hero-text, .hero-img{
+    width: 90%;
+    margin-top: 30px;
+}
+
+/* hero */
+.hero-container{
+        width: 100%;
+    }
+
+.hero-text, .hero-img{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.hero-btn{
+    padding: 10px;
+    margin: 10px;
+
+}
+.about-container{
+    width: 100%;   
+}
+.about{
+    width: 95%;
+}
+}
+
+/* hero config */
+.hero-img{
+    width: 550px;
+    height: 50vh;
+    margin: 10px;
+}
+.hero-text{
+    width: 550px;
+    padding: 10px;
+    margin: 10px;
+}
+.hero-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.stack{
+    margin: 8px;
+    padding: 10px;
+    
+}
+
+.about, .project{
+    background-color: blue;
+    width: 200px;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+   
+}
+
+.contact-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.contact, .hire-me{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+legend{
+    background-color: gray;
+}
+
+input, textarea{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.footer{
+    padding: 10px;
+    margin: 10px;
+}
+.signature{
+    text-align: center;
+    color: white;
+}
+
+.hero-img{
+    width: 300px;
+    height: 380px;
+    border-radius: 50%;
+}
